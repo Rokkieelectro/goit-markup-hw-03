@@ -1,0 +1,257 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --hover-color: #2196f3; 
+    --focus-color: #2196f3;
+    --main-text-color:  #212121;
+    --add-text-color: #757575;
+
+ 
+}
+/*-----------------------header----------------*/
+header {
+  background-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+font-family: 'Raleway';
+
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31 / 26);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo-web {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo-studio {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.navlist {
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+.list-item {
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color:var(--main-text-color);
+  text-decoration: none;
+}
+
+.list-item:hover {
+  color: var(--hover-color);
+}
+
+.list-item:focus {
+  color:var(--focus-color);
+}
+
+.navlist .list-item.current {
+    color: var(--focus-color);
+}
+
+.nav-site {
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+
+
+.nav-tel {
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.nav-site:hover {
+  color:var(--hover-color);
+}
+
+.nav-site:focus {
+  color: var(--focus-color);
+}
+
+.nav-tel:hover {
+  color: var(--hover-color);
+}
+.nav-tel:focus {
+  color:var(--focus-color);
+}
+/*----------------------------main------------------------*/
+
+.hero {
+
+  background: #2f303a;
+}
+
+
+.hero-title {
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hero-button {
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+}
+
+.hero-button-text {
+
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/*our benefits section*/
+
+.benefit-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.benefit-text{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--add-text-color);
+}
+
+/*-------------what are we doing section-----------------------*/
+
+.what-title {
+font-weight: 700;
+font-size: 36px;
+line-height:1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+/*----------------------our team section-----------------------------*/
+
+.our-team-title {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--main-text-color);
+}
+
+.team-names {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--main-text-color);
+}
+
+.team-positions {
+font-weight: 400;
+font-size: 16px;
+line-height:1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--add-text-color);
+}
+
+.team {
+    background: #F5F4FA;
+}
+
+.team-card {
+    background: #FFFFFF;
+}
+
+/*--------------------------footer---------------------*/
+.footer {
+background: #2F303A;
+}
+
+.footer-studio {
+    font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.adress {
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.nav-site-footer, .nav-tel-footer {
+   
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+
