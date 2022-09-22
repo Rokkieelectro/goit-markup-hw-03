@@ -8,8 +8,27 @@ body {
     --main-text-color:  #212121;
     --add-text-color: #757575;
 
- 
 }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.section {
+  padding-top: 94px;
+  
+}
+
+.container {
+margin-left: auto;
+margin-right: auto;
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+
 /*-----------------------header----------------*/
 header {
   background-color: #ffffff;
@@ -17,7 +36,13 @@ header {
 
 .list {
   list-style: none;
+  margin-top: 0;
+  padding-left: 0;
 }
+
+
+
+
 
 .logo {
 font-family: 'Raleway';
@@ -25,8 +50,8 @@ font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height: calc(31 / 26);
-  text-decoration: none;
-  cursor: pointer;
+text-decoration: none;
+cursor: pointer;
 }
 
 .logo-web {
@@ -54,6 +79,7 @@ line-height: calc(31 / 26);
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   text-decoration: none;
+
 }
 
 .list-item {
@@ -119,6 +145,7 @@ line-height: calc(31 / 26);
 .hero {
 
   background: #2f303a;
+  text-align: center;
 }
 
 
@@ -130,8 +157,11 @@ line-height: calc(31 / 26);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 30px;
+  
+
 }
 
 .hero-button {
@@ -154,7 +184,11 @@ cursor: pointer;
   color: #ffffff;
 }
 
-/*our benefits section*/
+/*--------------------our benefits section-------------------------*/
+
+.benefit {
+
+}
 
 .benefit-title {
 font-weight: 700;
@@ -163,6 +197,8 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
+margin-top: 0;
+margin-bottom: 10px;
 }
 
 .benefit-text{
@@ -171,9 +207,14 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--add-text-color);
+margin-top: 0;
 }
 
 /*-------------what are we doing section-----------------------*/
+
+.what {
+
+}
 
 .what-title {
 font-weight: 700;
@@ -181,8 +222,9 @@ font-size: 36px;
 line-height:1.16;
 text-align: center;
 letter-spacing: 0.03em;
-
 color: #212121;
+margin-bottom: 50px;
+
 }
 
 /*----------------------our team section-----------------------------*/
@@ -220,11 +262,28 @@ color: var(--add-text-color);
 
 .team-card {
     background: #FFFFFF;
+    display: block;
+    width:270px;
 }
 
 /*--------------------------footer---------------------*/
 .footer {
 background: #2F303A;
+padding-top: 60px;
+padding-bottom: 60px;
+
+}
+
+.footer-logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31 / 26);
+text-decoration: none;
+cursor: pointer;
+display: block;
+margin-bottom: 20px;
+
 }
 
 .footer-studio {
@@ -236,22 +295,26 @@ color: #FFFFFF;
 }
 
 .adress {
-
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+display: block;
+margin-bottom: 9px;
+
 }
 
 .nav-site-footer, .nav-tel-footer {
-   
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
+display: block;
+margin-bottom: 9px;
+
 }
 
