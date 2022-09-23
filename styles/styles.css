@@ -37,6 +37,8 @@ padding-right: 15px;
 header {
   background-color: #ffffff;
   border-bottom: 1px solid #ECECEC;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .flex-container {
@@ -55,8 +57,7 @@ align-items: center;
 .header-nav {
   display:flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
+
   
 }
 
@@ -97,7 +98,7 @@ cursor: pointer;
   color: var(--main-text-color);
   text-decoration: none;
   margin-bottom: 0;
-  padding-left: 93px;
+  margin-left: 93px;
   display:flex;
   gap: 50px;
 
