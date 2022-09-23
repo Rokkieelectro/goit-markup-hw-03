@@ -51,8 +51,8 @@ align-items: center;
 .header-nav {
   display:flex;
   align-items: center;
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   
 }
 
@@ -93,7 +93,7 @@ cursor: pointer;
   color: var(--main-text-color);
   text-decoration: none;
   margin-bottom: 0;
-  margin-left: 93px;
+  padding-left: 93px;
   display:flex;
   gap: 50px;
 
@@ -172,6 +172,9 @@ gap: 50px;
 
   background: #2f303a;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
 }
 
 
@@ -185,7 +188,8 @@ gap: 50px;
   text-transform: uppercase;
   color: #ffffff;
   width: 696px;
-  margin: 200px auto 30px auto;
+  margin: 0 auto;
+
 
   
 
@@ -198,8 +202,9 @@ border-radius: 4px;
 cursor: pointer;
 min-width: 216px;
 padding: 0;
-margin-bottom: 200px;
 border: none;
+margin-top: 30px;
+
 }
 
 .hero-button-text {
@@ -273,6 +278,7 @@ display: flex;
 gap: 30px;
 align-items:center;
 width: calc((100% - 90px / 3 ));
+padding-bottom: 94px;
 }
 
 
@@ -297,7 +303,7 @@ line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--main-text-color);
-margin-top: 30px;
+
 margin-bottom: 10px;
 }
 
@@ -308,7 +314,7 @@ line-height:1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--add-text-color);
-margin-bottom: 30px;
+
 }
 
 .flex-team {
@@ -320,6 +326,11 @@ gap: 30px;
 .team {
     background: #F5F4FA;
     padding-bottom: 94px;
+}
+
+.team-card-sign{
+padding-bottom: 30px;
+padding-top: 30px;
 }
 
 .team-card {
@@ -372,7 +383,7 @@ margin-bottom: 9px;
 
 }
 
-.nav-site-footer, .nav-tel-footer {
+.nav-site-footer {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -381,6 +392,14 @@ color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
 display: block;
 margin-bottom: 9px;
-
 }
 
+.nav-tel-footer {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+display: block;
+}

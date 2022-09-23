@@ -175,7 +175,7 @@ gap: 50px;
 }
 /*-------------main----------------*/
 .main {
-    background: #F5F5F5;
+;
 }
 
 /*--------------filter section-------------*/
@@ -232,12 +232,13 @@ color: #212121;
 }
 
 .card {
-display: block;
+
 
 }
 
 .card-item {
     text-decoration: none;
+    display: block;
 }
 
 .card-sign{
@@ -305,7 +306,7 @@ margin-bottom: 9px;
 
 }
 
-.nav-site-footer, .nav-tel-footer {
+.nav-site-footer  {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -317,3 +318,12 @@ margin-bottom: 9px;
 
 }
 
+.nav-tel-footer {
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+display: block;
+}
